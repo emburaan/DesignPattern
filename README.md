@@ -1,0 +1,1 @@
+[![Open in Notion](https://img.shields.io/badge/Open%20in-Notion-black?style=for-the-badge&logo=notion)]([https://www.notion.so/your-notion-link](https://www.notion.so/Design-Patterns-201d170870cf80aaae6feeaad8127e05))
