@@ -35,9 +35,9 @@ This repository contains implementations of the following design patterns, organ
 ### Creational Patterns
 Design patterns that deal with object creation mechanisms.
 
-- **🏭 [Factory Pattern](src/main/kotlin/designpatterns/factorypattern))** - Creates objects without specifying exact classes
-- **🔧 [Builder Pattern](src/main/kotlin/designpatterns/builder/))** - Constructs complex objects step by step  
-- **🎯 [Singleton Pattern](src/main/kotlin/designpatterns/singleton/))** - Ensures a class has only one instance
+- **🏭 [Factory Pattern](src/main/kotlin/designpatterns/factorypattern)** - Creates objects without specifying exact classes
+- **🔧 [Builder Pattern](src/main/kotlin/designpatterns/builder/)** - Constructs complex objects step by step  
+- **🎯 [Singleton Pattern](src/main/kotlin/designpatterns/singleton/)** - Ensures a class has only one instance
 
 ### Structural Patterns
 Design patterns that deal with object composition and relationships.
