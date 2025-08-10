@@ -148,10 +148,6 @@ Contributions are welcome! Here's how you can help:
   - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
   - [Design Patterns Quick Reference](https://www.dofactory.com/net/design-patterns)
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **[emburaan]**
