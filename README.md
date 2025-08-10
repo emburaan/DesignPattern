@@ -17,60 +17,45 @@ This repository serves as a learning resource and reference guide for understand
 
 ```
 DesignPattern/
-├── Creational/
-│   ├── Singleton/
-│   ├── Factory/
-│   ├── AbstractFactory/
-│   ├── Builder/
-│   └── Prototype/
-├── Structural/
-│   ├── Adapter/
-│   ├── Decorator/
-│   ├── Facade/
-│   ├── Composite/
-│   └── Proxy/
-├── Behavioral/
-│   ├── Observer/
-│   ├── Strategy/
-│   ├── Command/
-│   ├── State/
-│   └── Iterator/
-├── docs/
-│   ├── pattern-explanations/
-│   └── implementation-guides/
-└── examples/
-    ├── real-world-scenarios/
-    └── use-cases/
+├── adapterpattern/          # Structural Pattern - Interface compatibility
+├── builder/                 # Creational Pattern - Complex object construction
+├── dependencyinjection/     # Architectural Pattern - Dependency management
+├── facade/                  # Structural Pattern - Simplified interface
+├── factorypattern/          # Creational Pattern - Object creation
+├── observerpattern/         # Behavioral Pattern - Event notification
+├── repositorypattern/       # Architectural Pattern - Data access abstraction
+├── singleton/              # Creational Pattern - Single instance
+└── startegypattern/        # Behavioral Pattern - Algorithm selection
 ```
 
-## 🏗️ Design Pattern Categories
+## 🏗️ Implemented Design Patterns
+
+This repository contains implementations of the following design patterns, organized by category:
 
 ### Creational Patterns
-Focus on object creation mechanisms, trying to create objects in a manner suitable to the situation.
+Design patterns that deal with object creation mechanisms.
 
-- **Singleton** - Ensures a class has only one instance and provides global access
-- **Factory Method** - Creates objects without specifying exact classes
-- **Abstract Factory** - Creates families of related objects
-- **Builder** - Constructs complex objects step by step
-- **Prototype** - Creates objects by cloning existing instances
+- **🏭 [Factory Pattern](./factorypattern/)** - Creates objects without specifying exact classes
+- **🔧 [Builder Pattern](./builder/)** - Constructs complex objects step by step  
+- **🎯 [Singleton Pattern](./singleton/)** - Ensures a class has only one instance
 
 ### Structural Patterns
-Deal with object composition and relationships between entities.
+Design patterns that deal with object composition and relationships.
 
-- **Adapter** - Allows incompatible interfaces to work together
-- **Decorator** - Adds new functionality to objects dynamically
-- **Facade** - Provides simplified interface to complex subsystem
-- **Composite** - Composes objects into tree structures
-- **Proxy** - Provides placeholder/surrogate for another object
+- **🔌 [Adapter Pattern](./adapterpattern/)** - Allows incompatible interfaces to work together
+- **🏛️ [Facade Pattern](./facade/)** - Provides simplified interface to complex subsystem
 
 ### Behavioral Patterns
-Focus on communication between objects and the assignment of responsibilities.
+Design patterns that focus on communication between objects and assignment of responsibilities.
 
-- **Observer** - Defines one-to-many dependency between objects
-- **Strategy** - Defines family of algorithms and makes them interchangeable
-- **Command** - Encapsulates requests as objects
-- **State** - Allows object to alter behavior when internal state changes
-- **Iterator** - Provides way to access elements sequentially
+- **👀 [Observer Pattern](./observerpattern/)** - Defines one-to-many dependency between objects
+- **📋 [Strategy Pattern](./startegypattern/)** - Defines family of algorithms and makes them interchangeable
+
+### Architectural Patterns
+Higher-level patterns that provide overall structure and organization.
+
+- **💉 [Dependency Injection](./dependencyinjection/)** - Manages dependencies between objects
+- **🗄️ [Repository Pattern](./repositorypattern/)** - Abstracts data access layer and business logic
 
 ## 🚀 Getting Started
 
@@ -96,12 +81,13 @@ cd DesignPattern
 ### Running Examples
 ```bash
 # Navigate to specific pattern directory
-cd Creational/Singleton
+cd adapterpattern     # or any other pattern folder
 
 # Compile and run (adjust for your language)
 javac *.java && java Main  # Java
 python main.py             # Python
 dotnet run                 # C#
+node index.js              # Node.js
 ```
 
 ## 📚 Pattern Implementation Guide
@@ -113,25 +99,24 @@ Each pattern directory contains:
 - Unit tests demonstrating pattern behavior
 - UML diagrams (where applicable)
 
-## 🔍 When to Use Each Pattern
+## 🔍 Pattern Usage Guide
 
 ### Creational Patterns
-- **Singleton**: Database connections, logging, caching
-- **Factory**: Creating UI elements, database drivers
-- **Builder**: Creating complex configuration objects
-- **Prototype**: Creating similar objects efficiently
+- **🏭 Factory Pattern**: Creating database connections, UI components, or objects based on configuration
+- **🔧 Builder Pattern**: Building complex configuration objects, SQL queries, or multi-step processes
+- **🎯 Singleton Pattern**: Managing application settings, logging services, or shared resources
 
 ### Structural Patterns
-- **Adapter**: Integrating third-party libraries
-- **Decorator**: Adding features without inheritance
-- **Facade**: Simplifying complex APIs
-- **Proxy**: Lazy loading, access control
+- **🔌 Adapter Pattern**: Integrating third-party APIs, legacy system integration, or format conversion
+- **🏛️ Facade Pattern**: Simplifying complex subsystems, API wrappers, or service orchestration
 
 ### Behavioral Patterns
-- **Observer**: Event handling, MVC architectures
-- **Strategy**: Payment processing, sorting algorithms
-- **Command**: Undo/redo functionality, queuing operations
-- **State**: State machines, game character behavior
+- **👀 Observer Pattern**: Event handling, MVC architectures, or real-time notifications
+- **📋 Strategy Pattern**: Payment processing, sorting algorithms, or configurable business rules
+
+### Architectural Patterns
+- **💉 Dependency Injection**: Testable code, loose coupling, or configuration management
+- **🗄️ Repository Pattern**: Data access abstraction, unit testing with mock data, or switching data sources
 
 ## 🛠️ Contributing
 
@@ -181,10 +166,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Project Status
 
-- ✅ Core patterns implemented
-- 🔄 Advanced patterns in progress
+- ✅ **9 Design Patterns Implemented**
+  - 3 Creational Patterns (Factory, Builder, Singleton)
+  - 2 Structural Patterns (Adapter, Facade) 
+  - 2 Behavioral Patterns (Observer, Strategy)
+  - 2 Architectural Patterns (Dependency Injection, Repository)
+- 🔄 Advanced patterns planned for future releases
 - 📋 Documentation improvements ongoing
-- 🧪 Test coverage expansion planned
+- 🧪 Test coverage expansion in progress
+
+## 🚀 Recent Updates
+
+- **3 months ago**: Added Adapter, Builder, Facade, Factory, Observer, Repository, and Singleton patterns
+- **2 months ago**: Implemented Dependency Injection and Strategy patterns
+- **Ongoing**: Documentation and example improvements
 
 ---
 
