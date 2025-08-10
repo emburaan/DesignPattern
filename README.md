@@ -54,7 +54,7 @@ Design patterns that focus on communication between objects and assignment of re
 ### Architectural Patterns
 Higher-level patterns that provide overall structure and organization.
 
-- **💉 [Dependency Injection]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/dependencyinjection/))** - Manages dependencies between objects
+- **💉 [Dependency Injection](src/main/kotlin/designpatterns/dependencyinjection/))** - Manages dependencies between objects
 - **🗄️ [Repository Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/repositorypattern/))** - Abstracts data access layer and business logic
 
 ## 🚀 Getting Started
