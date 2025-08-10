@@ -35,27 +35,27 @@ This repository contains implementations of the following design patterns, organ
 ### Creational Patterns
 Design patterns that deal with object creation mechanisms.
 
-- **🏭 [Factory Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/factorypattern))** - Creates objects without specifying exact classes
-- **🔧 [Builder Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/builder/))** - Constructs complex objects step by step  
-- **🎯 [Singleton Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/singleton/))** - Ensures a class has only one instance
+- **🏭 [Factory Pattern](src/main/kotlin/designpatterns/factorypattern))** - Creates objects without specifying exact classes
+- **🔧 [Builder Pattern](src/main/kotlin/designpatterns/builder/))** - Constructs complex objects step by step  
+- **🎯 [Singleton Pattern](src/main/kotlin/designpatterns/singleton/))** - Ensures a class has only one instance
 
 ### Structural Patterns
 Design patterns that deal with object composition and relationships.
 
-- **🔌 [Adapter Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/adapterpattern/))** - Allows incompatible interfaces to work together
-- **🏛️ [Facade Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/facade/))** - Provides simplified interface to complex subsystem
+- **🔌 [Adapter Pattern](src/main/kotlin/designpatterns/adapterpattern/))** - Allows incompatible interfaces to work together
+- **🏛️ [Facade Pattern](src/main/kotlin/designpatterns/facade/))** - Provides simplified interface to complex subsystem
 
 ### Behavioral Patterns
 Design patterns that focus on communication between objects and assignment of responsibilities.
 
-- **👀 [Observer Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/observerpattern/))** - Defines one-to-many dependency between objects
-- **📋 [Strategy Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/startegypattern/))** - Defines family of algorithms and makes them interchangeable
+- **👀 [Observer Pattern](src/main/kotlin/designpatterns/observerpattern/))** - Defines one-to-many dependency between objects
+- **📋 [Strategy Pattern](src/main/kotlin/designpatterns/startegypattern/))** - Defines family of algorithms and makes them interchangeable
 
 ### Architectural Patterns
 Higher-level patterns that provide overall structure and organization.
 
 - **💉 [Dependency Injection](src/main/kotlin/designpatterns/dependencyinjection/))** - Manages dependencies between objects
-- **🗄️ [Repository Pattern]([src/main/kotlin/designpatterns](https://github.com/emburaan/DesignPattern/tree/main/src/main/kotlin/designpatterns/repositorypattern/))** - Abstracts data access layer and business logic
+- **🗄️ [Repository Pattern](src/main/kotlin/designpatterns/repositorypattern/))** - Abstracts data access layer and business logic
 
 ## 🚀 Getting Started
 
